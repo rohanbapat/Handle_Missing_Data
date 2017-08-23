@@ -1,17 +1,19 @@
-Aim - 
+#Handling Missing Data
+
+##Aim - 
 
 Missing values are a data scientist’s nemesis. Real world machine learning datasets contain missing values, but machine learning algorithms do not accept missing values as input. Our project explores and evaluates different approaches to handling missing data. 
 Our project goals fall into two distinct parts. The first is a theoretical inquiry into handling missing data. We explored various methods of handling a dataset with missing values, including machine learning approaches to predicting missing values and validating our predictions. In order to do this, we generated missing values in our dataset and applied various data handling techniques to the artificial missing data.
 Our second goal was to test our data handling methods using machine learning algorithms. By comparing how accurately the algorithms were able to predict trip durations, we can determine which of our approaches to handling missing data was most suited to our chosen dataset, and to machine learning problems in general. 
 
-Project Objectives -  
+##Project Objectives -  
 
 (1) Explore the original dataset to produce summary statistics on taxi ride data in New York City. 
 (2) Explore non-machine learning approaches to handling missing values. 
 (3) Explore machine learning approaches to missing data by predicting missing values. 
 (4) Use machine learning to test the accuracy of the approaches outlined above. 
 
-Dataset -
+##Dataset -
 
 Our dataset on taxi rides in New York City was taken from Kaggle. We chose this dataset because (a) it contains 1.5 million observations, a large enough dataset for machine learning to be applicable, and (b) it was a full, pre-cleaned dataset with no missing values. This was ideal for the purpose of our project so that we could evaluate the efficacy of our approaches to handling these values by comparing the prediction accuracy produ ced by the machine learning algorithms. 
 
